@@ -6,6 +6,10 @@
 > 본 문서의 기준 버전은 **OpenSim 4.5.2** (2025-04-22 릴리스)이며, 연구자 및 대학원생을 대상으로
 > 설치부터 GUI 사용법까지 다룹니다.
 
+![OpenSim 표준 분석 워크플로](docs/images/workflow.png)
+
+*그림: 실험 데이터로부터 결과 분석까지 이어지는 OpenSim 표준 워크플로*
+
 ---
 
 ## 목차
@@ -29,6 +33,17 @@
 2. **설치** — Windows는 `.exe`, macOS는 `.dmg`를 실행하여 설치한다. ([2장 참고](docs/02-설치.md))
 3. **첫 실행** — `File → Open Model`에서 `Models/Arm26/arm26.osim` 예제를 연다. ([3장 참고](docs/03-시작하기.md))
 4. **분석** — `Tools` 메뉴에서 원하는 도구(Scale, IK 등)를 실행한다. ([6장 참고](docs/06-주요-도구.md))
+
+## 시각 자료
+
+본 설명서의 모든 그림은 `docs/images/` 하위에 PNG로 보관되며,
+일부 흐름도는 GitHub-flavored Markdown의 **Mermaid** 문법으로 인라인 렌더링됩니다.
+PNG는 `scripts/make_figures.py` 한 번 실행으로 모두 재생성됩니다.
+
+```bash
+pip install matplotlib
+python3 scripts/make_figures.py
+```
 
 ## 라이선스
 
