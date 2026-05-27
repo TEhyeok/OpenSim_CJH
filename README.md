@@ -24,6 +24,7 @@
 | 6 | [주요 분석 도구](docs/06-주요-도구.md) | Scale, IK, ID, SO, CMC, Forward, Moco |
 | 7 | [시각화와 결과 분석](docs/07-시각화-결과분석.md) | Visualizer, Plotter, 결과 파일 해석 |
 | 8 | [문제 해결과 참고 자료](docs/08-문제해결-참고자료.md) | 자주 발생하는 오류, 커뮤니티, 추가 학습 자료 |
+| 9 | [실전 데모 (실제 실행)](docs/09-실전데모.md) | Python API로 Arm26 FD·ID·근육 곡선 직접 실행 |
 
 ---
 

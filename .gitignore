@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OpenSim logs (regenerated on every run)
+opensim.log
+demo_runs/opensim.log
